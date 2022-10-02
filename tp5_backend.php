@@ -78,7 +78,7 @@
 
 
                   <?php
-                      $numpares = [2,4,6,8,10];
+                      $numpares = [2,4,6,8,10,12,14,16,18,20];
                       foreach ($numpares as $valor) {
                          print "<p>$valor</p> \n";
                       }
