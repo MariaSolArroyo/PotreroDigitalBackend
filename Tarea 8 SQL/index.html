@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+      body{
+        background-color: #F4E5E1;
+
+      }
+
+
+      .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width:100%;
+        background-color: #F3A5B3
+    }
+    h1{
+      font-family: 'Playfair Display', serif;
+      font-weight: 800;
+      color: #202124;
+
+    }
+      .titulo{
+
+      }
+
+      .ropa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .botoninicio{
+        background-color: transparent;
+        margin: 10px;
+        border-radius: 10px;
+        padding: 4px 10px;
+        border: 2px solid #F3A5B3;
+        font-size: 0.8rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+
+      }
+
+      .botonindex{
+        background-color: #F3A5B3;
+      }
+
+      .botoninicio:hover{
+        font-size: 1rem;
+        background-color: #f3a5b3;
+        text-decoration: none;
+        color: #202124;
+
+      }
+
+      .enlacebotones{
+        text-decoration: none;
+        color: #202124;
+      }
+      .enlacebotones:hover{
+        color: #202124;
+
+      }
+      .bi-box-arrow-in-up{
+        color:#F3A5B3;
+        margin-top: 40px;
+      }
+
+      h3{
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+      <nav class="navbar">
+        <h1 class="titulo">TIENDA DE ROPA <i class="bi bi-bag-heart"></i> </h1>
+      </nav>
+      <section class="ropa">
+        <button class="botoninicio botonindex" type="submit" name="inicio"> <a class="enlacebotones" href="index.html">Inicio</a> </button>
+        <button class="botoninicio" type="submit" name="listar"> <a class="enlacebotones" href="listar.php">Lista de Productos</a> </button>
+        <button class="botoninicio" type="submit" name="Agregar Ropa"> <a class="enlacebotones" href="index.html">Agregar Ropa</a> </button>
+        <button class="botoninicio" type="submit" name="buzos"> <a class="enlacebotones" href="buzos.php">Buzos</a> </button>
+        <button class="botoninicio" type="submit" name="nike"> <a class="enlacebotones" href="nike.php">Productos Nike</a> </button>
+        <button class="botoninicio" type="submit" name="preciomayor"> <a class="enlacebotones" href="preciomayor.php">Precios Mayor a 500</a> </button>
+
+
+      </section>
+      <h3 style="text-align:center;"><i class="bi bi-box-arrow-in-up"></i> Elije la opción que desees <i class="bi bi-box-arrow-in-up"></i></h3>
+
+  </body>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
